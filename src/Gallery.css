@@ -1,0 +1,30 @@
+/* Gallery.css */
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.gallery-image {
+    width: 100%;
+    max-width: 1000px; /* Максимальная ширина изображения */
+    /* Отступ между картинками */
+}
+
+@media (max-width: 600px) {
+    .gallery-title {
+        font-size: 18px; /* Меньший размер шрифта на мобильных устройствах */
+    }
+
+    .gallery-image {
+        max-width: 200px; /* Меньшая ширина изображений на мобильных устройствах */
+    }
+}

@@ -1,38 +1,94 @@
-.App {
+/* styles.css - Подключите этот файл в вашем index.html или через import в вашем главном JavaScript файле */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: grey;
+  height: 100%;
+  margin: 0;
+}
+#root, .app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  flex: 1;
+
+}
+
+.app-header, .app-footer {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+}
+
+.app-footer {
+  margin-top: 20px;
+}
+
+.date-time, .language-switcher, .menu {
+  margin: 5px;
+}
+
+.language-switcher button, .dropdown-button {
+  font-size: 18px;
+  padding: 14px;
+  background-color: #007BFF;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.dropdown-content {
+  display: none; /* Изначально скрыто */
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.dropdown-button:focus + .dropdown-content, .dropdown-content:hover {
+  display: block; /* Показывать при наведении или фокусе */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .menu, .language-switcher {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dropdown-content {
+    width: 100%; /* Полная ширина на маленьких экранах */
   }
 }
