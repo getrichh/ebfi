@@ -482,8 +482,65 @@ const resources = {
 			"l11": "GUAYAQUIL PORT, ECUADOR",
 
 
-			// Preshipment
-			"d":"This type of our services includes inspection of all product’s parameters for ready one:\n" +
+
+		         // Audits
+					"r2":"Audits",
+					"r":"When planning the supply of materials, equipment, or components, it is necessary to have confidence that the supplier has real production facilities, equipment, specialists, measuring and control equipment, certificates and licenses, the quality of products complies with regulatory requirements.\n" +
+						  "\n" +
+						  "Inadequate supplier selection leads to supply disruptions, project delays and business process disruptions.\n" +
+						  "\n" +
+						  "To eliminate the risks of supply disruption, we offer services for our specialists to conduct a technical audit of the production process before entering into supply agreements.\n" +
+						  "\n" +
+						  "Comprehensive verification and analysis by our specialists provide reliable information on the technical readiness of the supplier to manufacture materials, equipment, or components in accordance with established requirements.\n" +
+						  "\n" +
+						  "Pre-production Audit\n" +
+						  "\n" +
+						  "One of the stages of work preceding the inspections is pre-production audits of producers of metal products and equipment for various industries. These audits allow the client to obtain a detailed analysis of the entire production and testing base of the manufacturer, identify key points affecting the loss of quality or delay in delivery of goods and equipment before placing an order for production. To date, the technical auditors of our company have conducted audits of more than 2000 enterprises around the world.\n" +
+						  "\n" +
+						  "Approval audits of manufactures\n" +
+						  "\n" +
+						  "These types of work are carried out by our employees (in agreement with our company, these employees are included in the register of supervisory and state authorities) by recognized state supervisory authorities. Also as part of the work on approval of manufacturers for compliance with the requirements of the Maritime Classification Societies (Italian RINA, Korean KRS etc.), Boiler Registers, Lloyd Turkey, and German Railways DB, our auditors prepare companies for certification and technical audits in the above organizations. In addition, we have more than 160 accreditations in the European Union for the right to certify companies according to the European Norms, and directives such as PED and CPD.",
+
+			// Quality control during manufacturing and testing
+
+			"y":"Quality control during manufacturing and testing",
+			"y2":"We provide services for the following industries:\n" +
+				  "\n" +
+				  "• - oil and gas field;\n" +
+				  "• - mining ;\n" +
+				  "• - metallurgy;\n" +
+				  "• - chemical;\n" +
+				  "• - transport;\n" +
+				  "• - energy.\n" +
+				  "\n" +
+				  "Depending on the type of equipment, EBFI can offer the following scope of inspection:\n" +
+				  "\n" +
+				  "• - Input inspection of materials and components;\n" +
+				  "• - Control over the manufacture of equipment and its components at all stages of production (cutting, welding, machining, assembly, etc.);\n" +
+				  "• - Visual inspection, measurement, laboratory testing and non-destructive testing;\n" +
+				  "• - Surveillance during acceptance tests;\n" +
+				  "• - Control of labelling, packing and shipping.\n" +
+				  "\n" +
+				  "In each case, we develop an inspection program based on product specifications and other customer-specific requirements.\n" +
+				  "\n" +
+				  "EBFI offers independent non-destructive testing services for the customer's material:\n" +
+				  "\n" +
+				  "- ultrasonic test;\n" +
+				  "- visual inspection;\n" +
+				  "- magnetic powder control;\n" +
+				  "- thickness measurement;\n" +
+				  "- capillary control method;\n" +
+				  "- dielectric method.\n" +
+				  "\n" +
+				  "Non-destructive testing is carried out by specialists who have received special training in the international center and have the second level of certification according to ISO 9712. Testing is carried out on mobile equipment owned by the Company, which allows to determine the location of testing at the request of the Customer.\n" +
+				  "\n" +
+				  "Typical materials: hot-rolled heavy plate steel, forgings, parts after machining (shafts for power equipment, axles of rollers, tie rods, rolls of rolling mills, shafts for shipbuilding), billets, welds, steel structures, welded pipes and pipelines, railway wheels, axles, anti-corrosion polyethylene coating, anti-corrosion polypropylene coating, anti-corrosion epoxy coating.\n" +
+				  "\n",
+
+			// Preshipment Inspections
+
+			"pre":"Preshipment Inspections",
+			"pre2":"This type of our services includes inspection of all product’s parameters for ready one:\n" +
 				  "\n" +
 				  "- visual inspection: during this activity qualified inspector check the items visually and can confirm the item is brand new and hasn’t any defects. Also, at the moment it can be control of coating, logos, markings, etc\n" +
 				  "\n" +
@@ -497,7 +554,36 @@ const resources = {
 				  "\n" +
 				  "- sealing: based on the requirements we can provide additional sealing of cargo with identification of each loading place.\n" +
 				  "\n" +
-				  "- quality certificate review: inspector will review MTC for products based on the international standards. If some parameters will be our of range it will be immediately shown in the report."
+				  "- quality certificate review: inspector will review MTC for products based on the international standards. If some parameters will be our of range it will be immediately shown in the report.",
+
+			// Marine survey
+
+			"mar":"Marine survey",
+			"mar2":"For proteting of our clients we are ready to provide any type of Marine Survey services, as a sample as below:\n" +
+				  "\n" +
+				  "- Cargo identification at the port terminal;\n" +
+				  "- Inspection of cargo storage conditions;\n" +
+				  "- Inspection of readiness of holds before loading;\n" +
+				  "- Сontrol of fastenings in the ship's holds;\n" +
+				  "- Draft survey;\n" +
+				  "- Weighing control;\n" +
+				  "- Pre-shipment inspection;\n" +
+				  "- Inspection of containers;\n" +
+				  "- Sealing containers;\n" +
+				  "- Conducting Silver test (for the presence of salts on the surface of the cargo);\n" +
+				  "- Determination of the level of radioactivity of the cargo;\n" +
+				  "- Ultrasonic testing of the hatch covers;\n" +
+				  "- Control of storage conditions;\n" +
+				  "- Visual inspection of packaging, marking, damage detection, corrosion level;\n" +
+				  "- Check dimensions for identification;\n" +
+				  "- Control during unloading operation from the vessel;\n" +
+				  "- Control during loading on wagons;\n" +
+				  "- Tallying cargo in the process of unloading / loading;\n" +
+				  "- Putting an additional marking (if required, according to the written request of the customer);\n" +
+				  "- Determination of the content of K2O or NaCl cargo during loading on the vessel;\n" +
+				  "- Photographing;\n" +
+				  "- Daily and final report.",
+
 		}
 
 	},
@@ -979,7 +1065,112 @@ const resources = {
 			"l8":"SOHAR PORT, OMAN",
 			"l9":"MINA ZAYED PORT, UAE",
 			"l10":"GANGAVARAM PORT, INDIA",
-			"l11":"GUAYAQUIL PORT, ECUADOR"
+			"l11":"GUAYAQUIL PORT, ECUADOR",
+
+
+
+
+
+// Audits
+"r2":"Аудиты",
+"r":"При планировании поставок материалов, оборудования или компонентов необходимо быть уверенным, что поставщик располагает реальными производственными мощностями, оборудованием, специалистами, измерительным и контрольным оборудованием, сертификатами и лицензиями, качество продукции соответствует нормативным требованиям.\n" +
+      "\n" +
+      "Неправильный выбор поставщика приводит к нарушениям в поставках, задержкам проектов и сбоям в бизнес-процессах.\n" +
+      "\n" +
+      "Для устранения рисков нарушения поставок мы предлагаем услуги наших специалистов по проведению технического аудита производственного процесса перед заключением соглашений о поставке.\n" +
+      "\n" +
+      "Комплексная проверка и анализ нашими специалистами обеспечивают надежную информацию о технической готовности поставщика к производству материалов, оборудования или компонентов в соответствии с установленными требованиями.\n" +
+      "\n" +
+      "Предпроизводственный аудит\n" +
+      "\n" +
+      "Одним из этапов работы, предшествующих проверкам, является предпроизводственный аудит производителей металлопродукции и оборудования для различных отраслей. Эти аудиты позволяют клиенту получить подробный анализ всей производственной и испытательной базы производителя, выявить ключевые моменты, влияющие на потерю качества или задержку в поставке товаров и оборудования до размещения заказа на производство. На сегодняшний день технические аудиторы нашей компании провели аудиты более чем 2000 предприятий по всему миру.\n" +
+      "\n" +
+      "Аудиты по утверждению производителей\n" +
+      "\n" +
+      "Эти виды работ выполняются нашими сотрудниками (по согласованию с нашей компанией, эти сотрудники включены в реестр надзорных и государственных органов) признанными государственными надзорными органами. Также в рамках работ по утверждению производителей на соответствие требованиям Морских классификационных обществ (итальянское RINA, корейское KRS и т.д.), Регистров котлов, Lloyd Turkey и немецких железных дорог DB наши аудиторы готовят компании к сертификации и техническим аудитам в вышеуказанных организациях. Кроме того, у нас есть более 160 аккредитаций в Европейском союзе на право сертификации компаний согласно Европейским нормам и директивам, таким как PED и CPD.",
+
+// Qualitycontrol during manufacturing and testing
+"y":"Контроль качества во время производства и испытаний",
+"y2":"Мы предоставляем услуги для следующих отраслей:\n" +
+      "\n" +
+      "• - нефтегазовая отрасль;\n" +
+      "• - горнодобывающая отрасль;\n" +
+      "• - металлургия;\n" +
+      "• - химическая промышленность;\n" +
+      "• - транспорт;\n" +
+      "• - энергетика.\n" +
+      "\n" +
+      "В зависимости от типа оборудования, EBFI может предложить следующий объем инспекции:\n" +
+      "\n" +
+      "• - Входной контроль материалов и компонентов;\n" +
+      "• - Контроль за производством оборудования и его компонентов на всех этапах производства (резка, сварка, мехобработка, сборка и т.д.);\n" +
+      "• - Визуальный осмотр, измерения, лабораторные испытания и неразрушающий контроль;\n" +
+      "• - Наблюдение во время приемочных испытаний;\n" +
+      "• - Контроль маркировки, упаковки и отправки.\n" +
+      "\n" +
+      "В каждом случае мы разрабатываем программу инспекции на основе спецификации продукции и других требований, специфичных для заказчика.\n" +
+      "\n" +
+      "EBFI предлагает независимые услуги неразрушающего контроля материалов заказчика:\n" +
+      "\n" +
+      "- ультразвуковое исследование;\n" +
+      "- визуальный осмотр;\n" +
+      "- магнитопорошковый контроль;\n" +
+      "- измерение толщины;\n" +
+      "- капиллярный метод контроля;\n" +
+      "- диэлектрический метод.\n" +
+      "\n" +
+      "Неразрушающий контроль проводится специалистами, прошедшими специальное обучение в международном центре и имеющими второй уровень сертификации по ISO 9712. Испытания проводятся на мобильном оборудовании, принадлежащем компании, что позволяет определить место проведения испытаний по запросу заказчика.\n" +
+      "\n" +
+      "Типичные материалы: горячекатаный толстолистовой стальной прокат, поковки, детали после мехобработки (валы для энергооборудования, оси роликов, тяги, валки прокатных станов, валы для судостроения), заготовки, сварные швы, стальные конструкции, сварные трубы и трубопроводы, железнодорожные колеса, оси, антикоррозийное полиэтиленовое покрытие, антикоррозийное полипропиленовое покрытие, антикоррозийное эпоксидное покрытие.\n" +
+      "\n",
+
+// Preshipment Inspections
+"pre":"Предварительные инспекции",
+"pre2":"Этот вид наших услуг включает инспекцию всех параметров готовой продукции:\n" +
+      "\n" +
+
+
+ "- визуальный осмотр: во время этой деятельности квалифицированный инспектор проверяет предметы визуально и может подтвердить, что предмет новый и не имеет дефектов. Также в этот момент может контролироваться покрытие, логотипы, маркировки и т.д.\n" +
+      "\n" +
+      "- геометрический осмотр: во время этой деятельности инспектор будет контролировать параметры согласно чертежам или другим техническим требованиям, которые содержат информацию о размерах предмета. Во время этого типа контроля инспектор будет использовать только проверенное измерительное оборудование. Документы о верификации будут показаны в отчете также.\n" +
+      "\n" +
+      "- контроль квалификации: во время этого типа контроля инспектор может собрать (если инспекция проходит на производственном предприятии) все документы о квалификации персонала предприятия, который участвует в QCD.\n" +
+      "\n" +
+      "- контроль маркировки: во время этого инспектор может контролировать нанесенную или горячую маркировку на корпусе изделия. Она будет сравниваться со стандартами маркировки. Замечания будут показаны в отчете.\n" +
+      "\n" +
+      "- инспекция упаковки: под контролем будут все упаковки, включая нетто и брутто вес. Также будет показано количество мест загрузки. Состояние упаковок и сравнение с требованиями нашего клиента и стандартами.\n" +
+      "\n" +
+      "- запечатывание: в соответствии с требованиями мы можем предоставить дополнительное запечатывание груза с идентификацией каждого места загрузки.\n" +
+      "\n" +
+      "- проверка сертификата качества: инспектор проверит MTC для продукции на основе международных стандартов. Если какие-либо параметры будут выходить за пределы диапазона, это будет немедленно показано в отчете.",
+
+// Marine survey
+"mar":"Морской обследование",
+"mar2":"Для защиты наших клиентов мы готовы предоставить любой вид услуг по морскому обследованию, например, как ниже:\n" +
+      "\n" +
+      "- Идентификация груза на портовом терминале;\n" +
+      "- Инспекция условий хранения груза;\n" +
+      "- Инспекция готовности трюмов перед загрузкой;\n" +
+      "- Контроль креплений в трюмах судна;\n" +
+      "- Опрос по черновику;\n" +
+      "- Контроль взвешивания;\n" +
+      "- Предварительная инспекция;\n" +
+      "- Инспекция контейнеров;\n" +
+      "- Запечатывание контейнеров;\n" +
+      "- Проведение Silver test (на наличие солей на поверхности груза);\n" +
+      "- Определение уровня радиоактивности груза;\n" +
+      "- Ультразвуковое испытание крышек люков;\n" +
+      "- Контроль условий хранения;\n" +
+      "- Визуальный осмотр упаковки, маркировки, обнаружение повреждений, уровень коррозии;\n" +
+      "- Проверка размеров для идентификации;\n" +
+      "- Контроль во время разгрузочных работ с судна;\n" +
+      "- Контроль во время погрузки на вагоны;\n" +
+      "- Подсчет груза в процессе разгрузки/погрузки;\n" +
+      "- Нанесение дополнительной маркировки (по требованию, согласно письменному запросу заказчика);\n" +
+      "- Определение содержания K2O или NaCl в грузе во время погрузки на судно;\n" +
+      "- Фотографирование;\n" +
+      "- Ежедневный и итоговый отчет.",
+
 
 
 

@@ -7,9 +7,9 @@ import { useNavigate } from 'react-router-dom'; // Для программной
 import { useTranslation } from 'react-i18next';
 
 
-import  slideActivities1 from "../img/Activities/Preshipment_new.jpg"
-import  slideActivities2 from "../img/Activities/Preshipment_new.jpg"
-import  slideActivities3 from "../img/Activities/Marine_Survey_new.jpg"
+import  slideActivities1 from "../img/Activities/picture_Aadits.jpg"
+import  slideActivities2 from "../img/Activities/-Quality_control_new.jpg"
+import  slideActivities3 from "../img/Activities/Preshipment_new.jpg"
 import  slideActivities4 from "../img/Activities/Marine_Survey_new.jpg"
 import  slideActivities5 from "../img/Activities/-Quality_control_new.jpg"
 import  slideActivities6 from "../img/Activities/-Quality_control_new.jpg"
@@ -24,34 +24,34 @@ const Activities = () => {
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 3000,
 	};
 
 	const activities = [
 		{
-			title: "Web Development",
+			title: t("r2"),
 
 			image: slideActivities1,
+			detailPath: "/work-experience/audits"
+		},
+		{
+			title: t("y"),
+
+			image: slideActivities2,
+			detailPath: "/work-experience/quality"
+		},
+		{
+			title: t("pre"),
+
+			image: slideActivities3,
 			detailPath: "/work-experience/preshipmentinspection"
 		},
 		{
-			title: "Software Engineering",
-
-			image: slideActivities2,
-			detailPath: "/work-experience/usaandcanada"
-		},
-		{
-			title: "Software Engineering",
-
-			image: slideActivities3,
-			detailPath: "/work-experience/usaandcanada"
-		},
-		{
-			title: "Software Engineering",
+			title: t("mar"),
 
 			image: slideActivities4,
-			detailPath: "/work-experience/usaandcanada"
+			detailPath: "/work-experience/marinesurvey"
 		},
 		{
 			title: "Software Engineering",

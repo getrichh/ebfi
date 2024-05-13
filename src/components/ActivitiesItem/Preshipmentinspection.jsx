@@ -6,8 +6,9 @@ const Preshipmentinspection = () => {
 
 	  return(
 			<div>
+				<h2>{t("pre")}</h2>
 				<h2>
-					{t("d").split('\n').map((line, index) => (
+					{t("pre2").split('\n').map((line, index) => (
 						  <React.Fragment key={index}>
 							  {line}
 							  <br/>

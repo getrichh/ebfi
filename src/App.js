@@ -17,7 +17,11 @@ import MalaysiaAndIndonesia from "./components/workitem/MalaysiaAndIndonesia";
 import Turkey from "./components/workitem/Turkey";
 import USAandCanada from "./components/workitem/USAandCanada";
 
+
+import Audits from "./components/ActivitiesItem/Audits";
 import Preshipmentinspection from "./components/ActivitiesItem/Preshipmentinspection";
+import Quality from "./components/ActivitiesItem/Quality";
+import Marinesurvey from "./components/ActivitiesItem/MarineSurvey";
 
 
 import './App.css';
@@ -44,10 +48,10 @@ function App() {
                           <Route path="/work-experience/usaandcanada" element={<USAandCanada />} />
 
 
+                          <Route path="/work-experience/audits" element={<Audits/>} />
+                          <Route path="/work-experience/quality" element={<Quality/>} />
                           <Route path="/work-experience/preshipmentinspection" element={<Preshipmentinspection/>} />
-                          <Route path="/work-experience/usaandcanada" element={<USAandCanada />} />
-                          <Route path="/work-experience/usaandcanada" element={<USAandCanada />} />
-                          <Route path="/work-experience/usaandcanada" element={<USAandCanada />} />
+                          <Route path="/work-experience/marinesurvey" element={<Marinesurvey />} />
                           <Route path="/work-experience/usaandcanada" element={<USAandCanada />} />
                           <Route path="/work-experience/usaandcanada" element={<USAandCanada />} />
 
