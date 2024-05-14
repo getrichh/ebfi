@@ -9,6 +9,7 @@ import Activities from './components/Activities';
 
 import Algeria from './components/workitem/Algeria';
 import Ukraine from './components/workitem/Ukraine';
+import Azovstal from "./components/workitem/Azovstal";
 import Brazil from "./components/workitem/Brazil";
 import China from "./components/workitem/China";
 import Europe from "./components/workitem/Europe";
@@ -39,6 +40,7 @@ function App() {
 
                           <Route path="/work-experience/algeria" element={<Algeria />} />
                           <Route path="/work-experience/ukraine" element={<Ukraine />} />
+                          <Route path="/work-experience/azovstal" element={<Azovstal/>} />
                           <Route path="/work-experience/brazil" element={<Brazil />} />
                           <Route path="/work-experience/china" element={<China />} />
                           <Route path="/work-experience/europe" element={<Europe />} />

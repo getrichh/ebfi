@@ -15,6 +15,7 @@ import malzlogo from "../img/malzlogo.png";
 import Turklogo from "../img/turklogo.png";
 import Ukrlogo from "../img/ukrlogo.png";
 import Usalogo from "../img/usalogo.png";
+import Azovstal from "../img/Azovstal/2.png"
 
 
 const WorkExperience = () => {
@@ -46,42 +47,48 @@ const WorkExperience = () => {
 		},
 		{
 			id: "3",
+			title: t("Azovstal"),
+			image: Azovstal,
+			detailPath: "/work-experience/azovstal"
+		},
+		{
+			id: "4",
 			title: t("Brazil"),
 			image: Brzlogo,
 			detailPath: "/work-experience/brazil"
 		},
 		{
-			id: "4",
+			id: "5",
 			title: t("China"),
 			image: Chinlogo,
 			detailPath: "/work-experience/china"
 		},
 		{
-			id: "5",
+			id: "6",
 			title: t("Europe"),
 			image: Evrplogo,
 			detailPath: "/work-experience/europe"
 		},
 		{
-			id: "6",
+			id: "7",
 			title: t("Korea"),
 			image: Korlogo,
 			detailPath: "/work-experience/korea"
 		},
 		{
-			id: "7",
+			id: "8",
 			title: t("Malaysia and Indonesia"),
 			image: malzlogo,
 			detailPath: "/work-experience/malaysiaandindonesia"
 		},
 		{
-			id: "8",
+			id: "9",
 			title: t("Turkey"),
 			image: Turklogo,
 			detailPath: "/work-experience/turkey"
 		},
 		{
-			id: "9",
+			id: "10",
 			title: t("USA and Canada"),
 			image: Usalogo,
 			detailPath: "/work-experience/usaandcanada"
