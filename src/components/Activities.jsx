@@ -11,8 +11,7 @@ import  slideActivities1 from "../img/Activities/picture_Aadits.jpg"
 import  slideActivities2 from "../img/Activities/-Quality_control_new.jpg"
 import  slideActivities3 from "../img/Activities/Preshipment_new.jpg"
 import  slideActivities4 from "../img/Activities/Marine_Survey_new.jpg"
-import  slideActivities5 from "../img/Activities/-Quality_control_new.jpg"
-import  slideActivities6 from "../img/Activities/-Quality_control_new.jpg"
+
 
 const Activities = () => {
 
@@ -52,19 +51,9 @@ const Activities = () => {
 
 			image: slideActivities4,
 			detailPath: "/work-experience/marinesurvey"
-		},
-		{
-			title: "Software Engineering",
-
-			image: slideActivities5,
-			detailPath: "/work-experience/usaandcanada"
-		},
-		{
-			title: "Software Engineering",
-
-			image: slideActivities6,
-			detailPath: "/work-experience/usaandcanada"
 		}
+
+
 	];
 
 	return (

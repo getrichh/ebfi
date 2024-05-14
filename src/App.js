@@ -52,8 +52,7 @@ function App() {
                           <Route path="/work-experience/quality" element={<Quality/>} />
                           <Route path="/work-experience/preshipmentinspection" element={<Preshipmentinspection/>} />
                           <Route path="/work-experience/marinesurvey" element={<Marinesurvey />} />
-                          <Route path="/work-experience/usaandcanada" element={<USAandCanada />} />
-                          <Route path="/work-experience/usaandcanada" element={<USAandCanada />} />
+
 
 
 

@@ -5,7 +5,10 @@ function Footer() {
 	return (
 		  <footer className="app-footer">
 			  <img src={Logo} alt=""/>
-			  <p>Contact us at contact@example.com</p>
+			  <p>Oleksandr Shchekan</p>
+			  <p> a.shchekan@ebfi.net</p>
+			  <p>+380509300468</p>
+			  <p>+34623560115</p>
 		  </footer>
 	);
 }

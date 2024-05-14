@@ -19,7 +19,7 @@ function Header() {
 				  <img src={Logo} alt=""/>
 				  </div>
 			  <div className="menu">
-				  <button onClick={() => setIsOpen(!isOpen)} className="dropdown-button">Menu</button>
+				  <button onClick={() => setIsOpen(!isOpen)} onTouchStart={() => setIsOpen(!isOpen)} className="dropdown-button">Menu</button>
 				  {isOpen && (
 						<div className="dropdown-content">
 							<ul>
