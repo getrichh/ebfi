@@ -496,9 +496,7 @@ const resources = {
 
 		         // Audits
 					"r2":"Audits",
-					"r":"Here's your text with line breaks added for better readability:\n" +
-						  "\n" +
-						  "\n" +
+					"r": "\n" +
 						  "When planning to supply materials, equipment or components, it is necessary to ensure that the supplier has real production facilities, equipment, qualified personnel, measuring and control equipment, certificates and licenses, and that the quality of the products complies with the regulatory requirements.  \n" +
 						  "Improper selection of a supplier leads to supply interruptions, project delays and business process failures.  \n" +
 						  "In order to eliminate the risk of supply failure, we offer a technical audit of the production process by our specialists before concluding supply contracts.  \n" +

@@ -103,3 +103,11 @@ main {
     display: block;
   }
 }
+/* Добавляем медиа-запросы для мобильных устройств */
+@media (max-width: 768px) {
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+    display: block; /* Убедитесь, что изображения блочные */
+  }
+}
