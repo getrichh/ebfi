@@ -51,13 +51,18 @@ main {
 }
 
 .dropdown-content {
-  display: none; /* Изначально скрыто */
-  position: absolute;
+  /*display: none; !* Изначально скрыто *!*/
+  /*position: absolute;*/
+
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   z-index: 1;
 }
+.dropdown-content ul{
+  display: flex;
+}
+
 
 .dropdown-button:focus + .dropdown-content, .dropdown-content:hover {
   display: block; /* Показывать при наведении или фокусе */
@@ -90,5 +95,8 @@ main {
 
   .dropdown-content {
     width: 100%; /* Полная ширина на маленьких экранах */
+  }
+  .dropdown-content ul{
+    display: block;
   }
 }
