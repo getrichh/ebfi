@@ -6,7 +6,7 @@ function History() {
 	return(
 		  <div>
 			  <div style={{fontSize: "48px", textAlign: 'center'}}>{t("History")}</div>
-			  <div style={{fontSize: "32px", textAlign: 'center', marginTop: "10%"}}
+			  <div style={{fontSize: "28px", textAlign: 'center', marginTop: "10%"}}
 				   className="history">{t('HistoryT')}</div>
 		  </div>
 	)

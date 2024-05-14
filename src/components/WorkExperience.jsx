@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import { useNavigate } from 'react-router-dom'; // Для программной навигации
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../btn.css";
 
 import { useTranslation } from 'react-i18next';
 
@@ -33,65 +34,66 @@ const WorkExperience = () => {
 
 
 	const experiences = [
+
 		{
 			id: "1",
-			title: t("Algeria"),
-			image: Alglogo,
-			detailPath: "/work-experience/algeria"
-		},
-		{
-			id: "2",
 			title: t("Ukraine"),
 			image: Ukrlogo,
 			detailPath: "/work-experience/ukraine"
 		},
 		{
-			id: "3",
+			id: "2",
 			title: t("Azovstal"),
 			image: Azovstal,
 			detailPath: "/work-experience/azovstal"
 		},
 		{
-			id: "4",
+			id: "3",
 			title: t("Brazil"),
 			image: Brzlogo,
 			detailPath: "/work-experience/brazil"
 		},
 		{
-			id: "5",
+			id: "4",
 			title: t("China"),
 			image: Chinlogo,
 			detailPath: "/work-experience/china"
 		},
 		{
-			id: "6",
+			id: "5",
 			title: t("Europe"),
 			image: Evrplogo,
 			detailPath: "/work-experience/europe"
 		},
 		{
-			id: "7",
+			id: "6",
 			title: t("Korea"),
 			image: Korlogo,
 			detailPath: "/work-experience/korea"
 		},
 		{
-			id: "8",
+			id: "7",
 			title: t("Malaysia and Indonesia"),
 			image: malzlogo,
 			detailPath: "/work-experience/malaysiaandindonesia"
 		},
 		{
-			id: "9",
+			id: "8",
 			title: t("Turkey"),
 			image: Turklogo,
 			detailPath: "/work-experience/turkey"
 		},
 		{
-			id: "10",
+			id: "9",
 			title: t("USA and Canada"),
 			image: Usalogo,
 			detailPath: "/work-experience/usaandcanada"
+		},
+		{
+			id: "10",
+			title: t("Algeria"),
+			image: Alglogo,
+			detailPath: "/work-experience/algeria"
 		},
 	];
 

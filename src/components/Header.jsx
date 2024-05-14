@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import DateTime from "./DateTime";
 import Logo from "../img/logo.svg"
 
+
+
 function Header() {
 	const { t, i18n } = useTranslation();
 	const [isOpen, setIsOpen] = useState(false);
@@ -16,8 +18,11 @@ function Header() {
 		  <header className="app-header">
 			  <DateTime></DateTime>
 			  <div className="logo">
-				  <img src={Logo} alt=""/>
-				  </div>
+				  <Link to="/" className="logo-link">
+					  <img src={Logo} alt=""/>
+				  </Link>
+
+			  </div>
 			  <div className="menu">
 				  {/*<button onClick={() => setIsOpen(!isOpen)} onTouchStart={() => setIsOpen(!isOpen)} className="dropdown-button">Menu</button>*/}
 				  {/*{isOpen && (*/}

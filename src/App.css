@@ -84,6 +84,9 @@ main {
 
 /* Media Queries */
 @media (max-width: 768px) {
+  body, html{
+    font-size: 14px;
+  }
   .app-header {
     flex-direction: column;
   }
